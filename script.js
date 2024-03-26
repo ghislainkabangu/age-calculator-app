@@ -26,7 +26,6 @@ calcul.addEventListener("click", () => {
     let d = date1 - dateUser;
     let m = mois1 - moisUser;
     let y = annee1 - anneeUser;
-    a;
 
     let affichage = (document.getElementById("affichage").innerHTML =
       "Vous avez : " + y + "ans" + " " + m + "mois et " + d + "jours");
