@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age-calculator-app </title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+            <g fill="#000" stroke="#FFF" stroke-width="2">
+                <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+            </g>
+        </svg>
+        <h1> Age calculator app</h1>
+        <form>
+            <div class="masterInput">
+                <div class="block">
+                    <p class="title">Date</p>
+                    <input type="text" class="date" id="date" maxlength="2" minlength="1" placeholder="date de naiss"
+                        required>
+                </div>
+                <div class="block">
+                    <p class="title">Mois</p>
+                    <input type="text" class="mois" id="mois" maxlength="2" minlength="1" placeholder="mois de naiss"
+                        required>
+                </div>
+                <div class="block">
+                    <p class="title">Année</p>
+                    <input type="text" class="annee" id="annee" maxlength="4" placeholder="année de naiss" required>
+                </div>
+
+            </div>
+            <div class="base">
+                <button type="button" id="calcul" class="calc"
+                    title="cliquer pour afficher le résultat">calculer</button>
+            </div>
+        </form>
+        <p id="affichage"></p>
+        <p class="copyright">Ghislain Kabangu Copyright © 2024</p>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>

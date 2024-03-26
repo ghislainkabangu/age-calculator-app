@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    background-color: whitesmoke;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+section {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+section h1 {
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    background-color: royalblue;
+
+}
+
+form {
+    margin: auto;
+}
+
+.masterInput {
+    display: flex;
+}
+
+form .title {
+    color: royalblue;
+}
+
+form input {
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+form input:focus {
+    border: 3px solid royalblue;
+    transition: all 0.5s ease;
+}
+
+.base {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    font-size: small;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:700px) {
+    section {
+        width: 80%;
+    }
+
+}
